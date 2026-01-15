@@ -1,0 +1,46 @@
+div {  
+
+    background-color: lightpink;
+    width: 300px;
+    height: 300px;
+
+    max-width: 400px;
+    min-width: 300px;
+
+    max-height: 400px;
+    min-height: 300px;
+
+    /* PADDING */
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+
+    padding: 60px; /* shorthand for all sides */
+    padding: 20px 50px 20px 30px; /* shorthand for top right bottom left */
+
+    /* REMEMBER that the code is going to apply the last rule defined if there are multiple of the same, like padding */
+
+    /* BORDER */
+    border-top-width: 10px;
+    border-right-width: 15px;
+    border-bottom-width: 10px;
+    border-left-width: 15px;
+
+    border-style: solid;
+    border-color: purple;
+    border-width: 10px 15px 10px 15px; /* shorthand for top right bottom left */
+
+    border: 10px double gray; /* shorthand for width style color */
+    border-radius: 30%; /* to make rounded corners */
+    
+    /* MARGIN */
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+
+    margin: 60px; /* shorthand for all sides */
+    margin: 20px 50px 20px 30px; /* shorthand for top right bottom left */
+
+}

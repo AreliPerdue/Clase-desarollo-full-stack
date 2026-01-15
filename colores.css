@@ -1,0 +1,52 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+/* Color por nombre */
+#aplicaColor1{
+    background-color: lightseagreen;
+}
+/* Transparencia */
+#aplicaColor2{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+/* HEX format */
+#aplicaColor3{
+    background-color: #99ccff;
+}
+/* RGB format */
+#aplicaColor4{
+    background-color: rgb(255, 192, 203);
+}
+/* HSL format */
+#aplicaColor5{
+    background-color: hsl(210deg, 22%, 49%);
+}
+/* Gradiente de colores */
+#aplicaColor6{
+    background: linear-gradient(90deg, lightblue, lightgreen);
+}
+/* Opacidad */
+#aplicaColor7{
+    background: purple;
+    opacity: 0.5;
+}
+/* radial gradient */
+#aplicaColor8{
+    background: radial-gradient( lightyellow, pink, orange);
+}
+
+#imagenCuadro{
+
+    width: 100%;
+    height: 100vh;
+
+    color: white;
+    text-align: center;
+    font-family: Century Gothic, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    
+
+    background: url("imagenes/Picture4.png");
+}

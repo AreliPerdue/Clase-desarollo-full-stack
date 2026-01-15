@@ -1,0 +1,30 @@
+#contenedor p {
+    color: black;
+    font-family: Century Gothic, sans-serif;
+}
+
+#contenedor p:first-child {
+    background-color: blue;
+    color:aquamarine;
+}
+
+#contenedor p:last-child {
+    background-color: green;
+    font-style: italic;
+    color:blueviolet;
+}
+#contenedor p:nth-child(3) {
+    background-color: yellow;
+    font-weight: bold;
+    color:brown;
+}
+/* para seleccionar nada mas parrafos impares o pares usar nth-child odd o even */
+#contenedor p:nth-child(odd) {
+    background-color: lightgray;       
+    color:darkblue;
+}   
+#contenedor p:nth-child(even) {
+    background-color: lightyellow;       
+    color:darkgreen;
+}   
+

@@ -1,0 +1,38 @@
+div {
+    width: 25%;
+    height:200px;
+    margin-top: 100px;
+    float: left;
+}
+
+div:nth-child(2) {
+    background: lightcoral;
+}
+
+div:nth-child(3) {
+    background: lightskyblue;
+}
+
+div:nth-child(4) {
+    background-color: lightgreen;
+}
+div:nth-child(5) {
+    background-color: lightseagreen;
+}
+
+@media screen and (min-width: 900px) {
+    div {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    div:nth-child(3){
+        background-color: lightpink;
+    }
+    div {
+        width: 100%;
+        margin-top: 0;
+    }
+}

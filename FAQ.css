@@ -1,0 +1,90 @@
+form{
+    background-color: lightseagreen;
+    width: 40%;
+    height: 500px;
+
+    margin:auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: 10px solid teal;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+label   {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(3, 48, 48);
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+}
+
+input, textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(3, 48, 48);
+    padding: 10px;
+    color: #033030;
+    transition: all 0.3s;
+}
+
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+input:focus {
+    border-bottom: 2px solid teal;
+    box-shadow: 0 1px 0 0 teal;
+}
+
+textarea {
+    resize: none;
+    border: 5px solid teal;
+    transition: all 0.3s;
+}
+
+textarea:focus {
+    border: 5px solid lightskyblue;
+
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background-color: teal;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    padding: 15px 40px;
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+
+
